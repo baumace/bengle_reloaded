@@ -1,3 +1,7 @@
 export default function GuessedPlayers() {
-    return <p>GuessedPlayers here!</p>;
+    return (
+        <div class="bg-blue-600 mb-auto">
+            <p>Guessed players here!</p>
+        </div>
+    );
 }

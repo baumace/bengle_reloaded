@@ -5,7 +5,7 @@ import Logo from "./navbar_components/Logo";
 
 export default function Navbar() {
     return (
-        <span class="flex">
+        <span class="flex bg-red-600 w-full">
             <Settings />
             <Information />
             <Statistics />

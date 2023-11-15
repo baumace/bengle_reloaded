@@ -1,3 +1,7 @@
 export default function SearchBar() {
-    return <p>Search bar here!</p>;
+    return (
+        <div class="bg-green-600">
+            <p>Search bar here!</p>
+        </div>
+    );
 }

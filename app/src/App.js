@@ -7,11 +7,11 @@ import SearchBar from "./components/SearchBar";
 
 function App() {
     return (
-        <div className="App">
-            <Navbar class="bg-red-600 w-full" />
-            <SearchBar class="bg-green-600" />
-            <GuessedPlayers class="bg-blue-600" />
-            <Footer class="bg-yellow-500" />
+        <div className="App" class="bg-slate-500 flex flex-col h-screen">
+            <Navbar />
+            <SearchBar />
+            <GuessedPlayers />
+            <Footer />
             {/* example react code }
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />

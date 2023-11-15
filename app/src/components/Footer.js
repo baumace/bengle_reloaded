@@ -1,3 +1,7 @@
 export default function Footer() {
-    return <p>Footer here!</p>;
+    return (
+        <div class="bg-yellow-500">
+            <p>Footer here!</p>
+        </div>
+    );
 }
